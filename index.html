@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -53,7 +54,34 @@
     <section class="card" id="css-section">
       <h2>CSS</h2>
       <ul>
-        <li>Enter your CSS notes here</li>
+        <li>Cascading Style Sheets , CSS, which is a programming language used by developers to define how webpage content is presented to users</li>
+        <li>Whereas HTML strictly handles the structure and content of a webpage, CSS defines the colors, aesthetics, visual layout, and organization. We use CSS to define style rules for specific elements of an HTML page and format them using a wide range of style options.</li>
+        <li>There are three ways to style a webpage using CSS: inline CSS, internal CSS style sheet, and external CSS style sheet.</li>
+        <li>When a developer wants to style an element directly in the HTML file, they use inline CSS. Inline styles apply to a specific HTML tag, using a style attribute with a CSS rule to style a particular page element only. Theyre useful for quick and permanent changes but are less flexible than external and internal style sheets, because each inline style must be edited individually whenever you make a design change.</li>
+        <li>An example of inline CSS is using the style attribute to change the color of a single h1 heading</li>
+        <li>It is also possible to embed an entire stylesheet directly in the HTML file using a style element in the head element. This internal style sheet contains CSS rules for the webpage in the head section of the HTML file. The rules only apply to that page, and you can configure CSS classes and IDs, which are used to identify elements, to style multiple elements in the page code. Again, a single change to the CSS rule will apply to all tagged page elements.</li>
+        <li>Inline CSS and internal style sheets are totally acceptable methods under certain conditions, but the most common way to style a webpage is by using an external CSS style sheet. This is preferred in most cases because it allows developers to keep all their CSS rules in a separate file, which makes design changes easier.</li>
+        <li>When using an external style sheet, we link the file using a link element placed in the HTML's head</li>
+        <li>Separation of concerns is a widely used term in web development and refers to separating code into different files based on use. It is one of the key design principles that we practice in the boot camp. Separation of concerns is based on the idea that each section of code should have its own responsibility.</li>
+        <li>a selector defines the element or attributes to which the rules, or declarations, will apply.</li>
+        <li>Declarations contain two important components: the CSS property we want to apply and the value of the property. For example, the declaration color: blue; includes the CSS property color and the value for that property, blue.</li>
+        <li>The margin property acts much like a margin in a word processing document. A margin property indicates how much space we want around the outside of an element. The margin is not visible on the page; it merely adds a buffer. When we set the margin property to 0, we are indicating that we want NO extra space around the element.</li>
+        <li>The padding property is often confused withmargin, but it is not the same thing. The padding property adds space around the content inside an element. When you increase padding, you are actually making the entire element bigger! That is because the padding, while transparent, is located inside the element, whereas the margin is the transparent buffer outside an element.</li>
+        <li>it is important to know that every HTML element is essentially a box. Each box consists of margins outside the element, and the element's borders, padding, and content. This is sometimes referred to as the CSS box model.</li>
+        <li>* use this to declare that ALL of the elements onthe page will have the style properties</li>
+        <li>Do Not Repeat Yourself (DRY) is a coding principle that encourages developers to reuse or share pieces of code in order to reduce the number of lines of code that need to be written or maintained. DRY can greatly reduce the overall size and complexity of a codebase.</li>
+        <li> when we create an external CSS file, we need to link it to the HTML file. Just because our files are in the same project repository doesnt mean they know about each other. To do this, we will use the HTML link element.</li>
+        <li>In the preceding statement, a link element creates the connection to the external file.</li>
+        <li>The rel attribute specifies the relationship between the current document and the linked document resource.</li>
+        <li>The href attribute specifies the location (URL) of the external resource.</li>
+        <li.>Class attributes allow us to share a CSS rule to any element we choose by assigning the rule to a class attribute with a class selector. Then the class attribute can be assigned to the element in the HTML, enabling us to freely choose which elements will be assigned the CSS rule.</li>
+        <li>A margin indicates how much space we want around the outside of an element.</li>
+        <li>A padding indicates how much space we want around the content inside an element.</li>
+        <li>The period preceding card designates this as a class selector. Any HTML element assigned to the class, card, will gain these property assignments from the CSS.</li>
+        <li>The box-shadow CSS property adds shadow effects around an element's frame. You can set multiple effects separated by commas. A box shadow is described by X and Y offsets relative to the element, blur and spread radius, and color.</li>
+        <li>Assigning colors in CSS can be done in many ways, including by semantic references such as gray or blue. We can also refer to a color by its hexadecimal code, or hex #.</li>
+
+        
       </ul>
    
       </section>
